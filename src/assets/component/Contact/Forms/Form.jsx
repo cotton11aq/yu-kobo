@@ -114,9 +114,8 @@ const FormDialog = (props) => {
       };
 
       const url =
-        'https://hooks.slack.com/services/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';
+        'https://hooks.slack.com/services/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';
 
-      // fetchメソッドでフォームの内容をSlackのIncoming Webhook URL に送信する
       fetch(url, {
         method: 'POST',
         body: JSON.stringify(payload),
