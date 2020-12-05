@@ -2,6 +2,26 @@
   position: relative;
   width: 100%;
 
+  &-sp_logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateY(0) translateX(-50%);
+    text-align: center;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  &-pc_logo {
+    display: none;
+  }
+
+  &-pc_back {
+    display: none;
+  }
+
   &-sns {
     display: none;
   }
@@ -39,6 +59,28 @@
     &-content {
       position: relative;
       width: 92%;
+    }
+
+    &-sp_logo {
+      display: none;
+    }
+
+    &-pc_logo {
+      display: block;
+      position: absolute;
+      top: -100px;
+      left: 18px;
+      z-index: 1;
+    }
+
+    &-pc_back {
+      display: block;
+      position: absolute;
+      top: -100px;
+
+      img {
+        width: 100%;
+      }
     }
 
     &-content01::before {

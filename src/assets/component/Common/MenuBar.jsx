@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import home from '../../img/icon/home.png';
 import about from '../../img/icon/about.png';
 import contact from '../../img/icon/contact.png';
 import shop from '../../img/icon/shop.png';
@@ -11,7 +12,7 @@ const MenuBar = () => {
         <li>
           <HashLink to={'/#top'}>
             <i className="menubar-home">
-              <img src={about} alt="home" />
+              <img src={home} alt="home" />
             </i>
             <br />
             <span className="menubar-text">Home</span>

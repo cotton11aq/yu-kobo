@@ -15,6 +15,5 @@ export {default as MenuBar} from './Common/MenuBar';
 export {default as About} from './About/About';
 export {default as Contact} from './Contact/Contact';
 export {default as Form} from './Contact/Forms/Form';
-export {default as TextInput} from './Contact/Forms/TextInput';
 export {default as Input} from './Contact/Forms/Input';
 export {default as TextArea} from './Contact/Forms/TextArea';

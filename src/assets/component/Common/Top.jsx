@@ -1,11 +1,17 @@
 import React from 'react';
 import { FacebookShareButton, TwitterShareButton } from 'react-share';
+import sp_logo from '../../img/top/sp_logo.png';
+import pc_logo from '../../img/top/pc_logo.png';
+import pc_back from '../../img/top/pc_back.png';
 
 const Top = (props) => {
   return (
     <>
       <div className="top" id="sptop">
         <div className={props.className}>
+          <div className="top-sp_logo"><img src={sp_logo} alt=""/></div>
+          <div className="top-pc_logo"><img src={pc_logo} alt=""/></div>
+          <div className="top-pc_back"><img src={pc_back} alt=""/></div>
           <div className="top-sns">
             <div className="top-sns_fa">
               <FacebookShareButton
