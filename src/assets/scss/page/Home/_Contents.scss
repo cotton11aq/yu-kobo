@@ -1,0 +1,18 @@
+.contents {
+  text-align: center;
+
+  &-01 {
+    margin-top: 12rem;
+  }
+}
+
+@include mq('sp') {
+  .contents {
+    margin: 0 auto;
+    position: relative;
+
+    &-01 {
+      margin-top: 14rem;
+    }
+  }
+}

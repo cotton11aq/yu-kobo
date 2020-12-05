@@ -1,0 +1,115 @@
+.about {
+  &-title {
+    text-align: center;
+    font-size: 3.6rem;
+    margin: 8rem auto 4rem;
+
+    h2 {
+      font-family: 'Didact Gothic', sans-serif;
+      letter-spacing: 3px;
+    }
+  }
+
+  &-subtitle {
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+
+  &-text_wrapper {
+    position: relative;
+  }
+
+  &-text {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 50rem;
+  }
+
+  &-text01 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+
+  &-text02,
+  &-text03 {
+    padding-left: 9rem;
+  }
+
+  &-text04 {
+    padding-left: 6rem;
+  }
+
+  &-back {
+    position: absolute;
+    top: 180px;
+    left: -24px;
+    background: url('../../../img/about/about_back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20rem;
+    height: 30rem;
+  }
+}
+
+@include mq('sp') {
+  .about {
+    &-title {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      text-align: left;
+      padding-left: 7rem;
+    }
+
+    &-subtitle {
+      font-size: 2.8rem;
+      letter-spacing: 1.5px;
+
+      br {
+        display: none;
+      }
+    }
+
+    &-text_wrapper {
+      p {
+        font-size: 1.6rem;
+        line-height: 2;
+      }
+    }
+
+    &-text {
+      padding-left: 3rem;
+      width: 70rem;
+      padding-left: 13rem;
+    }
+
+    &-text01 {
+      padding-top: 10rem;
+      br:nth-child(2) {
+        display: none;
+      }
+    }
+
+    &-text02 {
+      br:nth-child(2) {
+        display: none;
+      }
+    }
+
+    &-text03 {
+      br:nth-child(1),
+      br:nth-child(3) {
+        display: none;
+      }
+    }
+
+    &-back {
+      top: -2rem;
+      width: 42rem;
+      height: 75rem;
+      z-index: -1;
+    }
+  }
+}

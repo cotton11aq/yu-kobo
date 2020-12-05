@@ -1,0 +1,15 @@
+@mixin toppic($url) {
+  content: '';
+  display: block;
+  background: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120%;
+}
+
+@mixin  pc_toppic($url) {
+  background: url($url);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}

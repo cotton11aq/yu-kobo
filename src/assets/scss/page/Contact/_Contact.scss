@@ -1,0 +1,48 @@
+.contact {
+  &-title {
+    font-size: 3.6rem;
+    margin-top: 4rem;
+    text-align: center;
+
+    h3 {
+      font-family: 'Didact Gothic', sans-serif;
+      padding: 4rem 0;
+    }
+  }
+
+  &-text {
+    margin: 0 2rem;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid #444444;
+    text-align: center;
+  }
+}
+
+@include mq('sp') {
+  .contact {
+    &-title {
+      margin-top: 0;
+
+      h3 {
+        padding-top: 0;
+        text-align: left;
+        padding-left: 6rem;
+      }
+    }
+
+    &-text {
+      margin: 0 14rem;
+
+      p {
+        font-size: 1.6rem;
+        line-height: 2;
+      }
+
+      br:nth-child(1),
+      br:nth-child(3),
+      br:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+}

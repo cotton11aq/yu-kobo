@@ -1,0 +1,104 @@
+.contactlink {
+  margin-top: 10rem;
+
+  h4 {
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  &-text {
+    position: relative;
+    text-align: right;
+
+    img {
+      padding-bottom: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    padding-right: 2rem;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+
+  &-img {
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    background: url('../../img/contact/sp_contactlink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &-img::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+
+  &-content {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    a {
+      font-size: 2rem;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+  }
+
+  &-logo {
+    width: 2rem;
+    padding-bottom: 0.55rem;
+  }
+
+  &-link {
+    width: 6rem;
+    padding-bottom: 1.3rem;
+    margin-left: 1rem;
+  }
+}
+
+@include mq('sp') {
+  .contactlink {
+    background: url('../../img/contact/pc_contactlink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 47rem;
+    margin-top: 20rem;
+
+    &-img {
+      background: none;
+    }
+
+    &-img::before {
+      padding-top: 0;
+    }
+
+    h4 {
+      padding-top: 6rem;
+      padding-left: 4rem;
+      font-size: 2.4rem;
+      line-height: 2;
+      letter-spacing: 5px;
+    }
+
+    &-text {
+      text-align: left;
+      margin-left: 20rem;
+    }
+
+    &-dashed {
+      right: auto;
+      left: -110px;
+    }
+
+    &-content {
+      bottom: -200px;
+      right: 20px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@mixin content($top,$right,$bottom,$left,$width) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  width: $width;
+}
+
+@mixin pic($width, $top, $left) {
+  position: absolute;
+  width: $width;
+  top: $top;
+  left: $left;
+  margin-top: 0;
+  z-index: -1;
+}
+
+@mixin pc_content($width, $top, $right, $bottom, $left) {
+  display: inline-block;
+  position: absolute;
+  width: $width;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

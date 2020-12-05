@@ -1,0 +1,41 @@
+.slider {
+  &-product {
+    position: relative;
+
+    p {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding-top: 98%;
+      padding-left: 10%;
+    }
+  }
+
+  &-product01 {
+    @include sliderpic('../../img/product/product01.png');
+  }
+
+  &-product02 {
+    @include sliderpic('../../img/product/product02.png');
+  }
+
+  &-product03 {
+    @include sliderpic('../../img/product/product03.png');
+  }
+
+  &-product04 {
+    @include sliderpic('../../img/product/product04.png');
+  }
+}
+
+.swiper {
+  &-wrapper {
+    padding-left: 4rem;
+  }
+}
+
+@include mq('sp') {
+  .slider {
+    display: none;
+  }
+}

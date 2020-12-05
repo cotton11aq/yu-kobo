@@ -1,0 +1,84 @@
+.content {
+  &-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      order: 3;
+      margin-top: 1.5rem;
+      font-size: 2rem;
+      font-family: 'Noto Serif JP', serif;
+    }
+
+    img {
+      order: 2;
+      width: 18%;
+    }
+  }
+
+  &-02 {
+    margin-top: 8rem;
+  }
+
+  &-05 {
+    margin-top: 8rem;
+  }
+
+  &-num {
+    order: 1;
+
+    p {
+      text-align: center;
+      width: 8rem;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+      font-size: 3rem;
+    }
+  }
+
+  &-text {
+    margin-top: 2rem;
+
+    p {
+      font-family: 'Noto Serif JP', serif;
+    }
+  }
+}
+
+@include mq('sp') {
+  .content {
+    width: 100%;
+
+    &-01 {
+      order: 2;
+      padding-top: 10rem;
+      padding-left: 35%;
+      max-width: 150rem;
+    }
+
+    &-02 {
+      padding-right: 35%;
+      margin: 18rem 0 0 auto;
+    }
+
+    &-03 {
+      order: 2;
+      padding-left: 35%;
+      margin-top: 18rem;
+      max-width: 150rem;
+    }
+
+    &-num {
+      p {
+        font-size: 4rem;
+      }
+    }
+
+    h3 {
+      font-size: 2.4rem;
+      line-height: 2;
+      letter-spacing: 5px;
+    }
+  }
+}

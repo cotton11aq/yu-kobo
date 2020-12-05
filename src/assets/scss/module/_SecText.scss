@@ -1,0 +1,17 @@
+.sectext {
+  margin-top: 2.4rem;
+  text-align: center;
+  line-height: 2;
+
+  p {
+    font-family: 'Noto Serif JP', serif;
+  }
+}
+
+@include mq('sp') {
+  .sectext {
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}

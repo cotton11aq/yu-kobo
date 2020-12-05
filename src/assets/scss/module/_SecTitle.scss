@@ -1,0 +1,68 @@
+.sectitle {
+  position: relative;
+
+  h2 {
+    font-size: 2.4rem;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 8rem;
+    text-align: center;
+    line-height: 2;
+  }
+
+  &-border {
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+  }
+
+  &-backimg01 {
+    background: url('../../img/home/top_back01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    top: -12rem;
+    left: 5%;
+    width: 50%;
+    height: 40rem;
+  }
+
+  &-backimg02 {
+    background: url('../../img/home/top_back02.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    z-index: -2;
+    top: -1rem;
+    right: 5%;
+    width: 70%;
+    height: 40rem;
+  }
+}
+
+@include mq('sp') {
+  .sectitle {
+    &-border {
+      width: 8%;
+    }
+
+    h2 {
+      margin-top: 16rem;
+      font-size: 2.8rem;
+      letter-spacing: 8px;
+    }
+
+    &-backimg01 {
+      top: 5rem;
+      left: 10%;
+    }
+
+    &-backimg02 {
+      top: -10rem;
+      right: 5%;
+      height: 55rem;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.footer {
+  padding-top: 6rem;
+  text-align: center;
+  background-color: #d3c4a0;
+  padding-bottom: calc(75px + env(safe-area-inset-bottom));
+
+  &-contact {
+    display: inline-block;
+    position: relative;
+    width: 30rem;
+    padding: 1.5rem 0;
+    border: 1px solid #444444;
+
+    &_en {
+      font-size: 2rem;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    &_jp {
+      font-size: 1.2rem;
+      font-family: 'Noto Serif JP', serif;
+    }
+  }
+
+  &-insta {
+    a {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: center;
+
+      p {
+        width: 10rem;
+        line-height: 1;
+        font-family: 'Didact Gothic', sans-serif;
+      }
+    }
+  }
+
+  &-copy {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+
+  &-menu {
+    display: none;
+  }
+
+  &-right {
+    position: absolute;
+    top: 33px;
+    right: 14px;
+    width: 10px;
+  }
+}
+
+@include mq('sp') {
+  .footer {
+    padding-top: 4rem;
+    height: 20rem;
+    position: relative;
+
+    &-menu {
+      display: block;
+
+      ul {
+        display: flex;
+        margin-left: 2rem;
+
+        li {
+          margin: 0 2rem;
+
+          a {
+            font-size: 1.6rem;
+            font-family: 'Didact Gothic', sans-serif;
+          }
+        }
+      }
+    }
+
+    &-order {
+      position: relative;
+    }
+
+    &-contact {
+      position: absolute;
+      right: 45px;
+      top: -30px;
+      width: 26rem;
+      padding: 0.5rem 0;
+    }
+
+    &-contact_jp {
+      font-size: 1rem;
+    }
+
+    &-contact_en {
+      font-size: 1.6rem;
+    }
+
+    &-insta {
+      position: relative;
+
+      a {
+        position: absolute;
+        left: 40px;
+        bottom: -100px;
+
+        p {
+          width: auto;
+          line-height: 25px;
+          padding-right: 5px;
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    &-contact_jp {
+      letter-spacing: normal;
+    }
+
+    &-copy {
+      position: absolute;
+      right: 40px;
+      bottom: 0;
+    }
+
+    &-right {
+      top: 28px;
+      right: 10px;
+      width: 6px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// @import "setting/name";
+@import 'setting/config'; //必ず一番上に
+
+// @import "base_/name";
+@import 'base/base';
+@import 'base/reset';
+
+// @import "mixin/name";
+@import 'mixin/mq';
+@import 'mixin/SliderPic';
+@import 'mixin/TopPic';
+@import 'mixin/ContetsImg_Content';
+
+// @import "module/name";
+@import 'module/Top';
+@import 'module/SecTitle';
+@import 'module/SecText';
+@import 'module/ContactLink';
+@import 'module/ShopLink';
+@import 'module/Footer';
+@import 'module/MenuBar';
+@import 'module/Header';
+@import 'module/Slider';
+
+// @import "page/name";
+@import 'page/Home/AboutLink';
+@import 'page/Home/Contents';
+@import 'page/Home/Content';
+@import 'page/Home/ContentsImg';
+@import 'page/About/About';
+@import 'page/Contact/Contact';
+@import 'page/Contact/Form';
