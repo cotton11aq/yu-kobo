@@ -1,5 +1,6 @@
 import React from 'react';
 import { FacebookShareButton, TwitterShareButton } from 'react-share';
+import { HashLink } from 'react-router-hash-link';
 import sp_logo from '../../img/top/sp_logo.png';
 import pc_logo from '../../img/top/pc_logo.png';
 import pc_back from '../../img/top/pc_back.png';
@@ -9,9 +10,9 @@ const Top = (props) => {
     <>
       <div className="top" id="sptop">
         <div className={props.className}>
-          <div className="top-sp_logo"><img src={sp_logo} alt=""/></div>
-          <div className="top-pc_logo"><img src={pc_logo} alt=""/></div>
-          <div className="top-pc_back"><img src={pc_back} alt=""/></div>
+          <HashLink to={'/#top'} className="top-sp_logo"><img src={sp_logo} alt=""/></HashLink>
+          <HashLink to={'/#top'} className="top-pc_logo"><img src={pc_logo} alt=""/></HashLink>
+          <HashLink to={'/#top'} className="top-pc_back"><img src={pc_back} alt=""/></HashLink>
           <div className="top-sns">
             <div className="top-sns_fa">
               <FacebookShareButton

@@ -113,8 +113,7 @@ const FormDialog = (props) => {
           content,
       };
 
-      const url =
-        'https://hooks.slack.com/services/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';
+      const url = process.env.REACT_APP_SLACK_URL;
 
       fetch(url, {
         method: 'POST',
