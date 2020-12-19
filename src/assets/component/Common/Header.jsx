@@ -12,7 +12,6 @@ const Header = (props) => {
           <HashLink to={'/About#top'}>
             <img src={about} alt="about" />
             <p>about</p>
-            <p>fa</p>
           </HashLink>
         </li>
         <li>
