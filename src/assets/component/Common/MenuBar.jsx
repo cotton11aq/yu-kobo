@@ -15,7 +15,7 @@ const MenuBar = () => {
               <img src={home} alt="home" />
             </i>
             <br />
-            <span className="menubar-text">Home</span>
+            <span className="menubar-text">home</span>
           </HashLink>
         </li>
         <li>
