@@ -22,10 +22,6 @@
     display: none;
   }
 
-  &-sns {
-    display: none;
-  }
-
   &-content {
     position: relative;
     width: 100%;
@@ -45,12 +41,41 @@
 
   p {
     position: absolute;
-    bottom: 5rem;
-    right: 0;
-    text-align: right;
+    bottom: 1rem;
+    left: 1rem;
     padding-right: 0.5rem;
     color: #444444;
-    font-family: 'Didact Gothic', sans-serif;
+    line-height: 1.5;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  &-sns {
+    display: block;
+    position: absolute;
+    background: url('../../img/others/sns.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    right: 1rem;
+    bottom: 0;
+    z-index: 1;
+    width: 5rem;
+
+    button,
+    a {
+      font-size: 1.4rem !important;
+      font-family: futura-pt, sans-serif !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+    }
+
+    &_tw {
+      text-align: right;
+    }
   }
 }
 
@@ -102,22 +127,15 @@
       width: 100%;
       bottom: 15rem;
       right: -8%;
+      left: auto;
+      text-align: right;
       font-size: 1.6rem;
+      line-height: 2;
     }
 
     &-sns {
-      display: block;
-      position: absolute;
-      background: url('../../img/others/sns.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
       right: -70px;
       bottom: 230px;
-      z-index: 1;
-      width: 5rem;
 
       button,
       a {

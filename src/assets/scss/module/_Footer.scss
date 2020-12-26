@@ -13,7 +13,9 @@
 
     &_en {
       font-size: 2rem;
-      font-family: 'Didact Gothic', sans-serif;
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 400;
     }
 
     &_jp {
@@ -31,15 +33,20 @@
       p {
         width: 10rem;
         line-height: 1;
-        font-family: 'Didact Gothic', sans-serif;
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
       }
     }
   }
 
   &-copy {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 1rem 0;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400;
   }
 
   &-menu {
@@ -52,12 +59,32 @@
     right: 14px;
     width: 10px;
   }
+
+  &-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    img {
+      width: 10rem;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      padding-top: 3rem;
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.8rem;
+    }
+  }
 }
 
 @include mq('sp') {
   .footer {
     padding-top: 4rem;
-    height: 20rem;
+    height: 27rem;
     position: relative;
 
     &-menu {
@@ -72,7 +99,9 @@
 
           a {
             font-size: 1.6rem;
-            font-family: 'Didact Gothic', sans-serif;
+            font-family: futura-pt, sans-serif;
+            font-style: normal;
+            font-weight: 400;
           }
         }
       }
@@ -104,7 +133,7 @@
       a {
         position: absolute;
         left: 40px;
-        bottom: -100px;
+        bottom: -180px;
 
         p {
           width: auto;
@@ -130,5 +159,15 @@
       right: 10px;
       width: 6px;
     }
+
+    &-logo {
+      justify-content: flex-end;
+      margin-top: 6rem;
+      padding-right: 4rem;
+    }
+  }
+
+  .fa-3x {
+    font-size: 2em;
   }
 }

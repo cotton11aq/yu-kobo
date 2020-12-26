@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import right from '../../img/others/right.png';
+import logo from '../../img/footer/logo.png';
 
 const Footer = () => {
   return (
@@ -29,13 +30,24 @@ const Footer = () => {
         </HashLink>
       </div>
       <div className="footer-insta">
-        <a href="https://www.instagram.com/yu_kobo/">
+        <a href="https://www.instagram.com/yu_kobo/" target="_brank">
           <p>Yu-kobo Instagram</p>
-          <i className="fab fa-instagram fa-2x"></i>
+          <i className="fab fa-instagram fa-3x"></i>
         </a>
       </div>
-      <div className="footer-logo"></div>
-      <p className="footer-copy">©️Yu-kobo, All Right Reserved</p>
+      <div className="footer-logo">
+        <HashLink to={'/#top'}>
+          <img src={logo} alt="logo" />{' '}
+        </HashLink>
+        <HashLink to={'/#top'}>
+          <p>
+            hand made shop
+            <br />
+            by yu-kobo
+          </p>
+        </HashLink>
+      </div>
+      <p className="footer-copy">©️Yu-kobo, All Right Reserved.</p>
     </div>
   );
 };
