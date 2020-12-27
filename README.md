@@ -23,8 +23,7 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 ## 機能一覧
 
 * ツイッターシェア
-* データ保存
-* ログイン／ログアウト
+* Facebookシェア
 * レスポンシブ対応
 * お問い合わせ（Slack連携）
 
