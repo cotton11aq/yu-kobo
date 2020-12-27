@@ -47,11 +47,11 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 20〜40代の女性をターゲットとしていることから、手の大きさを想定し、比較的届きやすい画面下にナビゲーションを配置。  
 コンセプトで「あったらいいな♪」を叶えることを打ち出しているため、サイトでも「ここにボタンがあったらいいな♪」を叶えました。  
 </br>
-![Yu-kobo – 16](https://user-images.githubusercontent.com/70832534/103166088-fb4bab80-4861-11eb-8c38-5fa711bad738.jpg)
+![Yu-kobo – 17](https://user-images.githubusercontent.com/70832534/103166089-fbe44200-4861-11eb-8c16-b1174de76132.jpg)
 </br>
 </br>
 ### 想いを伝えるコピーの作成
 Yu-工房が「丁寧さ」や「叶える」を大切にしていることを伝えるために、コピー作成にもこだわりました。  
 見出しはコンパクトにまとめ、内容がわかりつつ、「特別」に魅力を感じる方に刺さるフレーズを意識しました。  
 </br>
-![Yu-kobo – 17](https://user-images.githubusercontent.com/70832534/103166089-fbe44200-4861-11eb-8c16-b1174de76132.jpg)
+![Yu-kobo – 16](https://user-images.githubusercontent.com/70832534/103166088-fb4bab80-4861-11eb-8c38-5fa711bad738.jpg)
