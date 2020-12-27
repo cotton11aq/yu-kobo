@@ -6,7 +6,7 @@
 オーダーメイド対応を強みにしており、「こんなポーチがあったらいいな」を
 叶えるお手伝いをしたいという想いを込めて作成しました。
 
-![rectangle_large_type_2_a80ca0bcb7e96333c7f6e7a19cff695a](https://user-images.githubusercontent.com/70832534/103057290-6b4bfe80-45e2-11eb-9ae6-efd20a50b4c5.jpg)
+![Yu-kobo – 11](https://user-images.githubusercontent.com/70832534/103171775-2e0d9800-4892-11eb-9c9d-fc3a10a291d1.jpg)
 
 ## URL
 
