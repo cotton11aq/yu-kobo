@@ -16,6 +16,10 @@
 <strong>フロントエンド</strong>  
 HTML / CSS(Sass) / JavaScript / React   
 
+<strong>インフラ</strong>  
+AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）  
+</br>
+
 ## 機能一覧
 
 * ツイッターシェア
