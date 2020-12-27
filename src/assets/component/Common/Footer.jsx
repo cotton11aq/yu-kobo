@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-menu">
         <ul>
           <li>
-            <HashLink to={'/#top'}>top</HashLink>
+            <HashLink to={'/#top'}>home</HashLink>
           </li>
           <li>
             <HashLink to={'/About#top'}>about</HashLink>
