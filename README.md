@@ -43,7 +43,7 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 <br />
 
 ## LP概要
-![Yu-kobo – 18](https://user-images.githubusercontent.com/70832534/103170461-ba668d80-4887-11eb-9763-82ec615a507c.jpg)
+![Yu-kobo – 18](https://user-images.githubusercontent.com/70832534/103212852-53141080-494f-11eb-8079-49e2ddfb5fba.jpg)
 <br />
 <br />
 <br />
