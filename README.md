@@ -1,39 +1,74 @@
 # Yu-工房
 
-四国一周ツーリングに特化したWebサイトです。
+<strong>手づくり雑貨ショップLP</strong>
 
-各地点の写真やスポットの紹介、地点間の移動にかかる時間やルートをテンプレート化し、初めての四国一周ツーリングをスムーズに行えるような構成に仕上げました。
+手づくりのポーチやかばんのECサイトにつながるLPを作成しました。  
+オーダーメイド対応を強みにしており、「こんなポーチがあったらいいな」を
+叶えるお手伝いをしたいという想いを込めて作成しました。
 
-![rectangle_large_type_2_a80ca0bcb7e96333c7f6e7a19cff695a](https://user-images.githubusercontent.com/70832534/103057290-6b4bfe80-45e2-11eb-9ae6-efd20a50b4c5.jpg)
+![Yu-kobo – 19](https://user-images.githubusercontent.com/70832534/103278831-c8dfb100-4a0f-11eb-91a5-25a71a20dff3.png)
+<br />
+<br />
 
 ## URL
 
 <https://yu-kobo.net>
+<br />
+<br />
 
 ## 使用技術
+<strong>フロントエンド</strong>  
+HTML / CSS(Sass) / JavaScript / React   
 
-* HTML
-* CSS(SCSS)
-* JavaScript
-* React
-* AWS
-  * Amazon Route 53
-  * Amazon CloudFront
-  * S3
-  * AWS Certificate Manager
+<strong>インフラ</strong>  
+AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）  
+<br />
+<br />
 
 ## 機能一覧
 
 * ツイッターシェア
-* データ保存
-* ログイン／ログアウト
+* Facebookシェア
 * レスポンシブ対応
 * お問い合わせ（Slack連携）
+<br />
+<br />
 
 ## AWS構成図
-
+Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
+CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
+<br />
 ![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)
+<br />
+<br />
 
-## 作成した経緯
+## LP概要
+![Yu-kobo – 18](https://user-images.githubusercontent.com/70832534/103212852-53141080-494f-11eb-8079-49e2ddfb5fba.jpg)
+<br />
+<br />
+<br />
 
-![Shikoku-touring-3](https://user-images.githubusercontent.com/70832534/102888426-1dc57980-449c-11eb-8112-de707890f6a9.png)
+### 画像とあしらいで「手づくり」「ぬくもり」を伝える
+あしらいの破線で、ミシンの縫い目をイメージ。  
+画像は切り取ったものを使用することで、作っている現場のような雰囲気を出しました。  
+また、コンセプト部分の背景に、ナチュラル素材の円形画像を配置することで、ぬくもりを印象付けできるよう、意識しました。  
+<br />
+![Yu-kobo – 15](https://user-images.githubusercontent.com/70832534/103166086-f71f8e00-4861-11eb-93ce-70222b563931.jpg)
+<br />
+<br />
+<br />
+
+### ターゲットに合わせたボトムナビゲーション
+20〜40代の女性をターゲットとしていることから、手の大きさを想定し、比較的届きやすい画面下にナビゲーションを配置。  
+コンセプトで「あったらいいな♪」を叶えることを打ち出しているため、サイトでも「ここにボタンがあったらいいな♪」を叶えました。  
+<br />
+![Yu-kobo – 17](https://user-images.githubusercontent.com/70832534/103166248-8e391580-4863-11eb-9a89-9dc3b458729a.jpg)</br>
+<br />
+<br />
+<br />
+
+### 想いを伝えるコピーの作成
+Yu-工房が「丁寧さ」や「叶える」を大切にしていることを伝えるために、コピー作成にもこだわりました。  
+見出しはコンパクトにまとめ、内容がわかりつつ、「特別」に魅力を感じる方に刺さるフレーズを意識しました。  
+<br />
+![Yu-kobo – 16](https://user-images.githubusercontent.com/70832534/103166246-8c6f5200-4863-11eb-9bc9-ec7b1df96404.jpg)
