@@ -6,7 +6,7 @@
 オーダーメイド対応を強みにしており、「こんなポーチがあったらいいな」を
 叶えるお手伝いをしたいという想いを込めて作成しました。
 
-![Yu-kobo – 19](https://user-images.githubusercontent.com/70832534/103278831-c8dfb100-4a0f-11eb-91a5-25a71a20dff3.png)
+![Yu-kobo – 19](https://user-images.githubusercontent.com/70832534/104082230-da2e8600-5277-11eb-978a-ba6884703a44.jpg)
 <br />
 <br />
 
@@ -32,13 +32,6 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 * レスポンシブ対応
 * お問い合わせ（Slack連携）
 <br />
-<br />
-
-## AWS構成図
-Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
-CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
-<br />
-![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)
 <br />
 <br />
 
