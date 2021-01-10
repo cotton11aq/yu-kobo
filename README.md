@@ -71,5 +71,4 @@ Yu-工房が「丁寧さ」や「叶える」を大切にしていることを�
 <br />
 
 ### 資料一式
-<br />
 https://drive.google.com/file/d/14TkxfuFsg5-nJGDk1iBsp-cBkVwT3cKz/view?usp=sharing
