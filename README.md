@@ -31,6 +31,7 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 * Facebookシェア
 * レスポンシブ対応
 * お問い合わせ（Slack連携）
+* ECサイトとの連携（Shopify）
 <br />
 <br />
 <br />
