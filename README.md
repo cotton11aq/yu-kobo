@@ -66,3 +66,10 @@ Yu-工房が「丁寧さ」や「叶える」を大切にしていることを�
 見出しはコンパクトにまとめ、内容がわかりつつ、「特別」に魅力を感じる方に刺さるフレーズを意識しました。  
 <br />
 ![Yu-kobo – 16](https://user-images.githubusercontent.com/70832534/103166246-8c6f5200-4863-11eb-9bc9-ec7b1df96404.jpg)
+<br />
+<br />
+<br />
+
+### 資料一式
+<br />
+https://drive.google.com/file/d/14TkxfuFsg5-nJGDk1iBsp-cBkVwT3cKz/view?usp=sharing
