@@ -11,7 +11,6 @@ const FormDialog = (props) => {
   const [address, setAddress] = useState('');
   const [content, setContent] = useState('');
 
-  // Functions triggered by inputting text value
   const inputName = useCallback(
     (event) => {
       setName(event.target.value);

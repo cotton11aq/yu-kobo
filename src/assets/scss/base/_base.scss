@@ -38,24 +38,3 @@ span {
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
 }
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-// 読み込み時にふわっと表示（1ページ目のみ）//
